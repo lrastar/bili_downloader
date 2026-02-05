@@ -15,7 +15,7 @@
 ### 依赖
 
 - Python 3.8+
-- FFmpeg（用于合并音视频）
+- FFmpeg
 
 ### 安装步骤
 
@@ -35,9 +35,7 @@ pip install -r requirements.txt
 
 ### 安装 FFmpeg
 
-下载地址: https://ffmpeg.org/download.html
-
-安装后确保 `ffmpeg` 命令在系统 PATH 中可用。
+安装后确保 `ffmpeg` 命令在系统 PATH 中可用
 
 ## 使用方法
 
@@ -87,7 +85,3 @@ python main.py "BV1xx411c7mD" -p 2
 自动选择最高可用音质：
 
 Hi-Res 无损 > 杜比全景声 > 192K > 132K > 64K
-
-## License
-
-MIT
